@@ -3,6 +3,7 @@
 #define strncpy 1234
 #define strcat 1234
 #define strncat 1234
+
 void stringcat(char src[], char dest[])
 {
   int i=0,j=0;                    

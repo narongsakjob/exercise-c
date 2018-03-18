@@ -3,7 +3,7 @@
 
 // free(ptr);
 
-include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 
 int main()
@@ -14,6 +14,7 @@ int main()
     scanf("%d", &num);
 
     ptr = (int*) malloc(num * sizeof(int));  //memory allocated using malloc
+    // printf("%d", *ptr);
     if(ptr == NULL)                     
     {
         printf("Error! memory not allocated.");
